@@ -14,12 +14,12 @@ function HomePage() {
         <h1 className="ProjectTitle">HASTYSKUNK127'S WORKSHOP <i className="fa-solid fa-hammer"></i></h1>
         <AboutPage/> 
         <div id="projects" className="Projects">
-            <ProjectCard className="ProjectCard" img={"images/Maps.png"} title={"Chomp"} to={"Chomp"} description={chompDescription}/>
-            <ProjectCard className="ProjectCard" img={"images/spectrum.jpeg"} title={"Responsive"} to={"Responsive"} link description={responsiveDescription}/>
-            <ProjectCard className="ProjectCard" img={"images/Iterative.png"} title={"Iterative"} to={"Iterative"} description={iterativeDescription}/>
-            <ProjectCard className="ProjectCard" img={"images/pharoah.jpeg"} title={"Development"} to={"Development"} description={developmentDescription}/>
-            <ProjectCard className="ProjectCard" img={"images/Bench.png"} title={"Woodworks"} to={""} description={woodworksDescription}/>
-            <ProjectCard className="ProjectCard" img={"images/CNF.png"} title={"Creative Writing"} to={""} description={writingDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/Maps.png"} title={"Chomp"} to={"/Portfolio/Chomp"} description={chompDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/spectrum.jpeg"} title={"Responsive"} to={"/Portfolio/Responsive"} link description={responsiveDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/Iterative.png"} title={"Iterative"} to={"/Portfolio/Iterative"} description={iterativeDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/pharoah.jpeg"} title={"Development"} to={"/Portfolio/Development"} description={developmentDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/Bench.png"} title={"Woodworks"} to={"/Portfolio/"} description={woodworksDescription}/>
+            <ProjectCard className="ProjectCard" img={"images/CNF.png"} title={"Creative Writing"} to={"/Portfolio/"} description={writingDescription}/>
         </div>
         </div>
     );
