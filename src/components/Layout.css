@@ -1,0 +1,27 @@
+.NavBar {
+    /* background-color: #333333; */
+    background-color: #264653;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.NavText {
+    font-size: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,49 @@
+.ProjectTitle {
+    color: white;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
+.DivisionTitle {
+    color: #2a9d8f;
+    font-weight: bold;
+    text-align: center;
+}
+.Content {
+    background-color: #264653;
+}
+
+.Division {
+    border-style: solid;
+    border-color: #2a9d8f;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.DivisionText {
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+}
+
+.DivisionImage {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.MockUpImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MockUpImage {
+    flex: 0 0 20%;
+    padding: 0;
+    width: 50%;
+}

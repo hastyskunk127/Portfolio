@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background-color: black;
 }
+
+html {
+  background-color: #264653;
+}
+
+* {
+  /* font-family: 'Atkinson Hyperlegible'; */
+  font-family: 'Montserrat';
+  font-weight: 'bold';
+}
+
+
+

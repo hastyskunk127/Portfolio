@@ -1,0 +1,55 @@
+.text-over-pic {
+    display:none;
+}
+
+.pic-with-text {
+    height: 100%;
+    width: 100%;
+    max-height: 30rem;
+}
+
+.secondary-text-over-pic {
+    display: none;
+}
+
+.Container:hover .pic-with-text {
+    filter: contrast(10%) grayscale(100%);
+    transform: scale(1.5);
+}
+
+.Container:hover .secondary-text-over-pic {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 150%;
+    list-style:none;
+}
+
+.Container img {
+    transition: 0.5s all ease-in-out;
+}
+
+.Container:hover .text-over-pic {
+    background-color: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+}
+
+.Container {
+    position: relative;
+    text-align: center;
+    color: white;
+    flex: 0 0 45%;
+    overflow: hidden;
+    margin: 1rem;
+    border-color: white;
+    border-style: solid;
+}

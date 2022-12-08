@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/Layout';
+import AboutPage from './components/AboutPage';
+import HomePage from './components/HomePage';
+import NoPage from './components/NoPage';
+import MapProjectPage from './components/MapProjectPage';
+import ResponsiveProjectPage from './components/ResponsiveProjectPage';
+import IterativeProjectPage from './components/IterativeProjectPage';
+import DevelopmentProjectPage from './components/DevelopmentProjectPage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter> 
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<HomePage/>} />
+            <Route path="About" element={<AboutPage/>}/>
+            <Route path="Chomp" element={<MapProjectPage/>}/>
+            <Route path="Iterative" element={<IterativeProjectPage/>}/>
+            <Route path="Responsive" element={<ResponsiveProjectPage/>}/>
+            <Route path="Development" element={<DevelopmentProjectPage/>}/>
+            <Route path="*" element={<NoPage/>} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
