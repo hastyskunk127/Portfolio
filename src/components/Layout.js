@@ -9,7 +9,7 @@ function Layout() {
         <div>
         <Navbar className="NavBar">
             <Nav>
-                <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/'><strong>HOME</strong></Link></Nav.Link>
+                <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/'><strong>HOME</strong></Link></Nav.Link>
                 <div className='project-links'>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Chomp'><strong>CHOMP</strong></Link></Nav.Link>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Responsive'><strong>RESPONSIVE</strong></Link></Nav.Link>
