@@ -13,7 +13,7 @@ function Layout() {
                 <div className='project-links'>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Chomp'><strong>CHOMP</strong></Link></Nav.Link>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Responsive'><strong>RESPONSIVE</strong></Link></Nav.Link>
-                <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio//Iterative'><strong>ITERATIVE</strong></Link></Nav.Link>
+                <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Iterative'><strong>ITERATIVE</strong></Link></Nav.Link>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/Development'><strong>DEVELOPMENT</strong></Link></Nav.Link>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/'><strong>WOORDWORKS</strong></Link></Nav.Link>
                 <Nav.Link className="NavText" as={'div'}><Link style={{color: 'white', textDecoration: 'none'}} to='/Portfolio/'><strong>WRITING</strong></Link></Nav.Link>
