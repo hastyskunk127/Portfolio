@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter> 
         <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/Portfolio/" element={<Layout/>}>
             <Route index element={<HomePage/>} />
             <Route path="About" element={<AboutPage/>}/>
             <Route path="Chomp" element={<MapProjectPage/>}/>
