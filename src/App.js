@@ -16,6 +16,20 @@ function App() {
     <div className="App">
       <BrowserRouter> 
         <Routes>
+           <Route path="/Portfolio" element={<Layout/>}>
+            <Route index element={<HomePage/>} />
+            <Route path="About" element={<AboutPage/>}/>
+            <Route path="Chomp" element={<MapProjectPage/>}/>
+            <Route path="Iterative" element={<IterativeProjectPage/>}/>
+            <Route path="Responsive" element={<ResponsiveProjectPage/>}/>
+            <Route path="Development" element={<DevelopmentProjectPage/>}/>
+            <Route path="About/" element={<AboutPage/>}/>
+            <Route path="Chomp/" element={<MapProjectPage/>}/>
+            <Route path="Iterative/" element={<IterativeProjectPage/>}/>
+            <Route path="Responsive/" element={<ResponsiveProjectPage/>}/>
+            <Route path="Development/" element={<DevelopmentProjectPage/>}/>
+            <Route path="*" element={<NoPage/>} />
+          </Route>
           <Route path="/Portfolio/" element={<Layout/>}>
             <Route index element={<HomePage/>} />
             <Route path="About" element={<AboutPage/>}/>
@@ -23,6 +37,11 @@ function App() {
             <Route path="Iterative" element={<IterativeProjectPage/>}/>
             <Route path="Responsive" element={<ResponsiveProjectPage/>}/>
             <Route path="Development" element={<DevelopmentProjectPage/>}/>
+             <Route path="About/" element={<AboutPage/>}/>
+            <Route path="Chomp/" element={<MapProjectPage/>}/>
+            <Route path="Iterative/" element={<IterativeProjectPage/>}/>
+            <Route path="Responsive/" element={<ResponsiveProjectPage/>}/>
+            <Route path="Development/" element={<DevelopmentProjectPage/>}/>
             <Route path="*" element={<NoPage/>} />
           </Route>
         </Routes>
