@@ -1,21 +1,23 @@
 .ProjectTitle {
     color: white;
     font-weight: bold;
-    color: #2a9d8f;
+    color: #B6DCFE;
+    font-size: 4rem;
 }
 
 .DivisionTitle {
-    color: #2a9d8f;
+    color: #B6DCFE;
     font-weight: bold;
     text-align: center;
 }
+
 .Content {
     background-color: #264653;
 }
 
 .Division {
     border-style: solid;
-    border-color: #2a9d8f;
+    border-color: #B6DCFE;
     width: 70rem;
     margin-left: auto;
     margin-right: auto;
